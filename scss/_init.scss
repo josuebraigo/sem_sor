@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+	font-size: 17px;
+	font-family: 'Lexend Deca', sans-serif;
+	margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+body {
+    background: #DDD;
+}
+
+body {
+    overflow: hidden;
+}
+
+input, select, button {
+    -webkit-appearance: none !important;
+}
+
+img {
+    max-width: 100%;
+}

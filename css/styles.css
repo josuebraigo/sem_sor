@@ -1,0 +1,120 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  font-size: 17px;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: auto; }
+
+body {
+  background: #DDD; }
+
+body {
+  overflow: hidden; }
+
+input, select, button {
+  -webkit-appearance: none !important; }
+
+img {
+  max-width: 100%; }
+
+header {
+  background: #FF4136;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1em calc((100% - 1170px) / 2);
+  font-family: 'Lato'; }
+  header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff; }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none; }
+    header nav ul li {
+      padding: 0 1em; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold; }
+
+#home .info-materia {
+  width: 1170px;
+  margin: 0 auto; }
+  #home .info-materia .cita a {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic; }
+
+#home .perfil-alumno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 1170px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  #home .perfil-alumno h1 {
+    width: 100%; }
+  #home .perfil-alumno .avatar {
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    overflow: hidden; }
+  #home .perfil-alumno .info {
+    padding-left: 3em; }
+
+#home .lista-actividades {
+  width: 1170px;
+  margin: 2em auto; }
+  #home .lista-actividades .actividad {
+    width: 100%;
+    margin: 2px 0; }
+    #home .lista-actividades .actividad h3 {
+      margin: 0;
+      padding: 10px;
+      background-color: #FF851B;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      #home .lista-actividades .actividad h3:before {
+        content: 'v'; }
+    #home .lista-actividades .actividad .content {
+      display: none; }

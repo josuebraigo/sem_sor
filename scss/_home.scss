@@ -1,0 +1,55 @@
+#home {
+	.info-materia {
+		width: 1170px;
+		margin: 0 auto;
+		.cita {
+			a {
+				text-decoration: none;
+				color: inherit;
+				font-style: italic;
+			}
+		}
+	}
+	.perfil-alumno {
+		display: flex;
+		flex-wrap: wrap;
+		width: 1170px;
+		margin: 0 auto;
+		align-items: center;
+		h1 {
+			width: 100%;
+		}
+		.avatar {
+			width: 300px;
+			border-radius: 50%;
+			border: 10px solid #fff;
+			overflow: hidden;
+		}
+		.info {
+			padding-left: 3em;
+		}
+	}
+	.lista-actividades {
+		width: 1170px;
+		margin: 2em auto;
+		.actividad {
+			width: 100%;
+			margin: 2px 0;
+			h3 {
+				margin: 0;
+				padding: 10px;
+				background-color: #FF851B;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: center;
+				&:before {
+					content: '';
+				}
+			}
+			.content {
+				display: none;
+			}
+		}
+	}
+}

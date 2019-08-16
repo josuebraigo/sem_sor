@@ -1,0 +1,31 @@
+header {
+	background: #FF4136;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em calc((100% - 1170px) / 2);
+	font-family: 'Lato';
+	h1 {
+		margin: 0;
+		text-transform: uppercase;
+		color: #fff;
+	}
+	nav {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			list-style: none;
+			li {
+				padding: 0 1em;
+				a {
+					text-decoration: none;
+					color: #fff;
+					font-weight: bold
+				}
+			}
+		}
+	}
+}

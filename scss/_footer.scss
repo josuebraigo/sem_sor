@@ -1,0 +1,14 @@
+footer {
+	padding: 15px calc((100% - 1170px) / 2);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0, 0, 0, .2);
+	img {
+		height: 50px;
+		&:last-child {
+			height: 100px;
+		}
+	}
+}

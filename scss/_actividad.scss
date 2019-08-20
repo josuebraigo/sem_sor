@@ -1,0 +1,41 @@
+#actividad {
+	.container {
+		width: 1170px;
+		margin: 0 auto;
+		h1 {
+			text-align: center;
+		}
+		.objetivo {
+			font-style: italic;
+			text-align: center;
+			padding: 1em;
+			background-color: rgba(0, 0, 0, .25);
+		}
+		.indicadores {
+			width: 100%;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			.indica {
+				width: 50%;
+				text-align: center;
+				cursor: pointer;
+				padding: 1em;
+				margin: 0;
+			}
+			.active {
+				// border-bottom: none;
+				// border: 1px solid #000;
+				background-color: rgba(0, 0, 0, .1);
+			}
+		}
+		.slide-so {
+			background-color: rgba(0, 0, 0, .1);
+			padding: 10px;
+			// border: 1px solid #000;
+			// border-top: none;
+		}
+	}
+}

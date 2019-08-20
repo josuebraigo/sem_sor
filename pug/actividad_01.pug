@@ -1,0 +1,70 @@
+doctype
+html
+	head
+		include include/_head
+	body#actividad
+		include include/_header
+		.container
+			h1 Actividad 01
+			p.objetivo
+				strong Objetivo: 
+				| Instalar Windows y Linux desktop nativo y describir características sobresalientes de cada sistema operativo
+			.indicadores
+				p.indica.primero.active Windows
+				p.indica.segundo Linux
+			.slide-so
+				.so
+					h2 Windows
+					p Lo primero que se necesita es tener una USB booteada, que nos permita almacenar la herramienta para instalar el sistema operativo sin problema.
+					p Para obtener la herramienta, da click 
+						a(href="https://www.microsoft.com/es-mx/software-download/windows10" target="_blank") aquí
+					p Una vez que empezamos la instalación, lo primero que nos aparecerá será la pantalla para elegir nuestro idioma
+					img(src="img/actividad_01/09.jpg")
+					p Una vez elegido el idioma de nuestra preferencia, lo siguiente es esperar a que la herramienta inicie el asistente de instalación. A pesar de ser un sistema operativo, el asistente nos permitirá facilitar la instalación del mismo.
+					img(src="img/actividad_01/10.jpg")
+					p Después de haber seleccionado nuestra unidad o partición en la que instalaremos el sistema operativo, el asistente comenzará a instalar el sistema, junto con algunas características y actualizaciones para obtener una mejor experiencia de usuario
+					img(src="img/actividad_01/11.jpg")
+					p Al terminar la instalación, nos pedirá que ingresemos la región en la cual nos encontramos. Generalmente se selecciona nuestra región, pero en caso de no ser así, se puede elegir de manera manual.
+					img(src="img/actividad_01/12.jpg")
+					p Una vez elegida la región, nos pedirá la distribución del teclado con el que trabajaremos. Al igual que ocn la región, se seleccionará automáticamente nuestro tipo de teclado. En caso de ser erroneo o diferente, se puede elegir otro dentro de la lista
+					img(src="img/actividad_01/13.jpg")
+					p Después de haber elegido la distribución del teclado, nos pedirá conectarnos a una red WiFi en caso de contar con dicha opción. Si es así, elegimos nuestra red doméstica o de trabajo, procedemos a escribir la contraseña en caso de ser necesario y damos en "Conectar"
+					img(src="img/actividad_01/14.jpg")
+					p Después de conectarnos a nuestra red, nos pedirá iniciar sesión con nuestra cuenta de Microsoft. En caso de tener una ingresamos nuestro correo y nuestra contraseña. En caso de no tenerla podemos crear una cuenta nueva para poder encontrar una mejor experiencia de usuario, o en su defecto, omitir este paso.
+					img(src="img/actividad_01/15.jpg")
+					p Los siguientes pasos consisten en ingresar y seleccionar diferentes formas de iniciar sesión una vez que iniciamos la computadora. Se puede ingresar un NIP o una contraseña, o se puede iniciar con la contraseña del correo que hayamos registrado anteriormente. Después nos pedirá que seleccionemos las actualizaciones y configuraciones de seguridad según nos convenga. Lo ideal es dejar todo por default, tal y como el sistema nos lo señala automáticamente
+					p Una vez seleccionado todas estas configuraciones, lo que sigue es esperar a que la herramienta haga lo suyo. Terminará un par de actualizaciones y configuraciones que le señalamos y después iniciará windows.
+					img(src="img/actividad_01/16.jpg")
+					p 
+						strong ¡Listo! 
+						| Esta pantalla significa que nuestro sistema operativo Windows se ha instalado correctamente!
+				.so
+					h2 Linux (Ubuntu)
+					p Lo primero que se necesita es tener una USB booteada, que nos permitirá almacenar la herramienta para instalar el sistema operativo sin problema.
+					p Para obtener el ISO de Linux da click 
+						a(href="https://ubuntu.com/download/desktop" target="_blank") aquí.
+						|  Y si deseas saber como bootear una USB, puedes checar la siguiente 
+						a(href="https://ubunlog.com/crear-usb-bootable-ubuntu-16-10/" target="_blank") liga.
+					p Ya que la herramienta empiece la instalación, lo primero que haremos es seleccionar "Install Ubuntu" dentro del menú que nos aparece, lo que nos permitirá iniciar el asistente de instalación.
+					img(src="img/actividad_01/01.jpg")
+					p Después nos aparecerá una ventana con un mensaje de bienvenida y una lista de idiomas para elegir el que más nos convenga. Por default aparecerá inglés, sin embargo si se desea cambiar a español se puede seleccionar dicho idioma.
+					img(src="img/actividad_01/02.jpg")
+					p Una vez elegido el idioma, nos aparecerá un listado de distribuciones de teclado que tiene el sistema operativo, por default nos aparecerá el que es acorde a nuestro idioma, sin embargo en caso de ser cambiado, se puede seleccionar el adecuado.
+					img(src="img/actividad_01/03.jpg")
+					p Una vez elegida la distribución del teclado, nos aparecerá un listado de redes inalámbricas en caso de contar con dicha opción. En caso de ser así, seleccionaremos nuestra red, y procederemos a introducir la contraseña de dicha red.
+					img(src="img/actividad_01/04.jpg")
+					p Una vez elegida la red a la que nos conectaremos, nos preguntará el asistente el tipo de instalación que deseamos en nuestra computadora. Por defecto, y la opción más adecuada, será la opción de 'Instalación Normal'.
+					img(src="img/actividad_01/05.jpg")
+					p En caso de que tu computadora cuente con otro sistema operativo como Windows, nuestro asistente nos preguntará si deseamos instalar Ubuntu junto a Windows o si deseamos conservar solo Ubuntu, para fines de la actividad, dejaremos instalado Windows e instalaremos Ubuntu junto con el.
+					img(src="img/actividad_01/06.jpg")
+					p En la siguiente pantalla nos aparecerá que seleccionemos la cantidad de memoria que deseamos destinar al sistema operativo, en dado caso de que ya hayamos hecho una partición, podemos ir a las configuraciones avanzadas y seleccionar la partición, en caso contrario, podemos solo seleccionar el espacio dentro del espacio libre del disco y dar click en "Instalar ahora".
+					img(src="img/actividad_01/07.jpg")
+					p Aparecerá una barra de progreso donde se nos indicará el estatus de la instalación, en la cual nos avisará en que proceso se encuentra y el tiempo restante.
+					img(src="img/actividad_01/08.jpg")
+					p Una vez instalado el sistema operativo, nos aparecerá un aviso donde menciona que la instalación se ha completado y por lo tanto necesitamos reiniciar el sistema.
+					p Una vez ya reinciado, nos aparecerá el escritorio de Ubuntu
+					p
+						strong ¡Listo! 
+						|  Esta pantalla significa que se ha instalado Ubuntu correctamente.
+
+		include include/_footer

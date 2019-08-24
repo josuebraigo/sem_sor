@@ -414,3 +414,6 @@ footer {
   #actividad .container .slide-so {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 10px; }
+    #actividad .container .slide-so img {
+      width: 50%;
+      margin: 0 auto; }

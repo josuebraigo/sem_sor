@@ -10,12 +10,53 @@ html
 				strong Objetivo: 
 				| Instalar Ruby on Rails y Ionic y desarrollar una aplicación básica
 			.indicadores
-				p.indica.primero.active Windows
-				p.indica.segundo Linux
+				p.indica.primero.active Ruby on Rails
+				p.indica.segundo Ionic
 			.slide-so
 				.so
-					h2 Windows
+					h2 Ruby on Rails
+					p Ruby on Rails es un framework de aplicaciones web de código abierto escrito en el lenguaje de programación Ruby, siguiendo el paradigma del patrón Modelo Vista Controlador (MVC). Trata de combinar la simplicidad con la posibilidad de desarrollar aplicaciones del mundo real escribiendo menos código que con otros frameworks y con un mínimo de configuración. El lenguaje de programación Ruby permite la metaprogramación, de la cual Rails hace uso, lo que resulta en una sintaxis que muchos de sus usuarios encuentran muy legible. Rails se distribuye a través de RubyGems, que es el formato oficial de paquete y canal de distribución de bibliotecas y aplicaciones Ruby.
+					p El proceso de instalación en su mayoría son una serie de comandos que se tienen que agregar por consola y que la terminal haga todo el trabajo. A continuación se mostrarán los comandos a agregar
+					p El primero de ellos es actualizar nuestros paquetes
+					img(src="img/actividad_06/01.jpg")
+					p Lo siguiente es instalar una serie de paquetes necesarios para instalar RVM, con el cual instalaremos Ruby
+					img(src="img/actividad_06/02.jpg")
+					p Ahora agregaremos algunas llaves que nos permitirá descargar los paquetes
+					img(src="img/actividad_06/03.jpg")
+					p Lo siguiente es instalar por medio de CURL, RVM
+					img(src="img/actividad_06/04.jpg")
+					p Ahora agregaremos como nueva fuente a RVM
+					img(src="img/actividad_06/05.jpg")
+					p Ahora, por medio de RVM instalaremos Ruby en su versión más reciente
+					img(src="img/actividad_06/06.jpg")
+					p Estableceremos la versión que instalamos como la default
+					img(src="img/actividad_06/07.jpg")
+					p Una vez instalado, comprobamos la instalación verificando la versión instalada.
+					img(src="img/actividad_06/08.jpg")
+					p Lo siguiente es preparar algunas instalaciones para instalar rails
+					img(src="img/actividad_06/09.jpg")
+					img(src="img/actividad_06/10.jpg")
+					img(src="img/actividad_06/11.jpg")
+					p Ya preparado las instalaciones, procederemos a instalar rails desde GEM
+					img(src="img/actividad_06/12.jpg")
+					p Una vez instalado comprobamos la versión de rails
+					img(src="img/actividad_06/13.jpg")
+					p Para iniciar un nuevo proyecto corremos el siguiente comando, donde el último parámetro será el nombre del proyecto que iniciaremos
+					img(src="img/actividad_06/14.jpg")
+					p Este es el producto final.
+					img(src="img/actividad_06/15.jpg")
 				.so
-					h2 Linux
+					h2 Ionic
+					p Ionic es un framework gratuito y open source para desarrollar aplicaciones híbridas multiplataforma que utiliza HTML5, CSS (generado por SASS) y Cordova como base. Es uno de los framework del momento por utilizar AngularJS para gestionar las aplicaciones, lo que asegura aplicaciones rápidas y escalables.
+					p El proceso de instalación es muy sencillo, solo tenemos que estar seguros de haber instalado anteriormente Nodejs con su manejo de paquetes con npm. Para más info dar click 
+						a(href="https://nodejs.org/es/" target="_blank") aquí
+					p Una vez asegurados de tener NPM, corremos el siguiente comando
+					img(src="img/actividad_06/16.jpg")
+					p Ya instalado nos aseguramos de que se haya instalado correctamente corriendo el siguiente comando
+					img(src="img/actividad_06/17.jpg")
+					p Para iniciar un proyecto nuevo, escribimos este comando, donde el último parámetro es el nombre del proyecto.
+					img(src="img/actividad_06/18.jpg")
+					p Este es el producto final.
+					img(src="img/actividad_06/19.jpg")
 
 		include include/_footer

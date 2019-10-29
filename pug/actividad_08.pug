@@ -9,13 +9,36 @@ html
 			p.objetivo 
 				strong Objetivo: 
 				| Instala Windows Server y destaca las características de 'Active directory' y ejemplos
-			.indicadores
+			//-.indicadores
 				p.indica.primero.active Windows
 				p.indica.segundo Linux
 			.slide-so
 				.so
-					h2 Windows
-				.so
-					h2 Linux
+					h2 Windows Server
+					p Windows Server Standard es un sistema operativo de servidor que permite a un equipo manejar funciones de red como servidor de impresión, controlador de dominio, servidor web y servidor de archivos. Como sistema operativo para servidores, también existe la plataforma para aplicaciones de servidor que se pueden adquirir por separado, como Exchange Server o SQL Server. La edición estándar está diseñada para organizaciones pequeñas y medianas con entornos de servidores físicos o ligeramente virtualizados.
+					img(src="img/actividad_08/01.jpg")
+
+					//Características de Active Directory
+
+					h2 Active directory
+					p Algunas características son:
+					ul
+						li 
+							b Active Directory Structure
+							br
+							| Una característica clave de la estructura de Active Directory es la autorización delegada y la replicación eficiente. Cada parte de la estructura organizativa de AD limita la autorización o la replicación dentro de esa subparte en particular.
+						li
+							b Controladores de dominio
+							br
+							| Los controladores de dominio son servidores de Windows que contienen la base de datos de Active Directory y ejecutan funciones relacionadas con AD, como la autenticación y la autorización. Un controlador de dominio es cualquier servidor Windows que cuente con la función de controlador de dominio instalada.
+						li
+							b Sistema de nombres de dominio
+							br
+							| Aunque Active Directory contiene información de ubicación sobre los objetos almacenados en la base de datos, utiliza el sistema de nombres de dominio (DNS) para situar los controladores de dominio. Dentro de Active Directory, cada dominio tiene un nombre de dominio DNS y cada ordenador que forma parte del dominio cuenta con un nombre DNS dentro del mismo.
+						li
+							b Replicación
+							br
+							| Active Directory utiliza diversos controladores de dominio por múltiples razones, incluido el equilibrio de carga y la tolerancia a fallos. Para que esto funcione, cada controlador de dominio debe disponer de una copia completa de la propia base de datos de Active Directory de su dominio. La replicación es el proceso que garantiza que cada controlador cuente con una copia actualizada de la base de datos.
+
 
 		include include/_footer

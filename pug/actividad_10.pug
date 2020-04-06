@@ -9,15 +9,28 @@ html
 			p.objetivo 
 				strong Objetivo: 
 				| Instala un sistema en WS con Django con base de datos y uno en Ruby on Rails con bases de datos y asignar diferentes permisos de acceso a los grupos de usuarios en cada sistema
-			.indicadores
+			//- .indicadores
 				p.indica.primero.active Django
 				p.indica.segundo Ruby on Rails
 			.slide-so
 				.so
 					h2 Django
+					p Para la creación de un proyecto en Django puedes encontrar un tutorial en el siguiente 
+						a(href="/actividad_05.html")
+					p Una vez creado el proyecto, lo pondremos en la raiz del disco de nuestro sistema operativo. Daremos click derecho en la carpeta y daremos click en "Propiedades"
 					img(src="img/actividad_10/01.jpg")
+					p Una vez se nos abrió la ventana, vamos a la pestaña de "Compartir" y damos click en el botón de "Compartir"
+					img(src="img/actividad_10/02.jpg")
+					p Ya que se nos abrió la nueva ventana, vamos a escribir el nombre de los grupos a los cuales le daremos acceso
+					img(src="img/actividad_10/03.jpg")
+					img(src="img/actividad_10/04.jpg")
+					p Una vez hayamos escrito todos los nombres, se nos enlistarán en la parte de abajo. Daremos click en "Compartir"
+					img(src="img/actividad_10/05.jpg")
+					p Ahora nos vamos a la pestaña de "Seguridad" y damos click en "Editar"
+					img(src="img/actividad_10/06.jpg")
+					o Nos aparecerá un listado de los grupos a los que tiene acceso junto con una lista en la parte de abajo de lo que se puede o no hacer, si solo queremos que sea de lectura, deshabilitamos las otras casillas
+					img(src="img/actividad_10/07.jpg")
+					p Listo, ya tenemos nuestro proyecto compartido a diferentes grupos de usuario dentro de Windows Server
 
-				.so
-					h2 Ruby on Rails
 
 		include include/_footer
